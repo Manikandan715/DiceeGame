@@ -31,6 +31,21 @@ p {
 img {
   width: 80%;
 }
+button {  
+  color: #070707;
+  padding: 8px 22px;
+  border-radius: 6px;
+  background: #6ee1e9;
+  transition: all 0.2s ease;
+}
+button:active{
+  transform: scale(0.96);
+}
+.reload {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
 
 footer {
   margin-top: 5%;
